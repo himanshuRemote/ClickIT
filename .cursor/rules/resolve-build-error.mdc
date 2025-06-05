@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+1. Bild this app.
+2. If build failed.
+3. See build errors.
+4. Solve buil errors.
+5. Goto step 1.
+6. IF build succedd.
+7. Launch this app.
+8. Play loud sound.

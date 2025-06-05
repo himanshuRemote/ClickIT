@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B09ADE102DF045D3002B4C6B /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = B09ADE0F2DF045D3002B4C6B /* SFSafeSymbols */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B07C03B82DF00D9B00E583D9 /* ClickIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09ADE102DF045D3002B4C6B /* SFSafeSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = ClickIT;
 			packageProductDependencies = (
+				B09ADE0F2DF045D3002B4C6B /* SFSafeSymbols */,
 			);
 			productName = ClickIT;
 			productReference = B07C03B82DF00D9B00E583D9 /* ClickIT.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = B07C03AF2DF00D9B00E583D9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B09ADE0E2DF045D3002B4C6B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B07C03B92DF00D9B00E583D9 /* Products */;
 			projectDirPath = "";
@@ -315,6 +324,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B09ADE0E2DF045D3002B4C6B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B09ADE0F2DF045D3002B4C6B /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09ADE0E2DF045D3002B4C6B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B07C03B02DF00D9B00E583D9 /* Project object */;
 }
